@@ -1,5 +1,8 @@
 var me = { name:"Shishir", 
-            sayHello: funtion(){
+            sayHello: function(){
               return "Hello, " + this.name;
             }
 };
+
+
+console.log(me.sayHello());
